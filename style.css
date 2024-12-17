@@ -1,0 +1,200 @@
+/* Yleiset tyylit */
+body {
+    line-height: 1.6;
+    background-color: #b2b29a;
+    color: #000000;
+}
+
+/* Fontti */
+.oswald-regural {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navigaatio */
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar {
+    background-color: #ebe7b2 !important; 
+}
+
+/* Heading */
+header {
+    width: 100%;
+    background-color: #b2b29a;
+    overflow: hidden;
+}
+
+/* Kuva */
+.hero-image-container {
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+/* Kuvia osio */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Asiakaskokemusten osion tyyli */
+#testimonials {
+    text-align: center;
+    background-color: #f9f9f9; /* Kevyt taustaväri */
+    padding: 60px 20px;
+}
+
+/* Otsikon tyyli */
+#testimonials h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Yksittäinen asiakaskokemus */
+.testimonial-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover-efekti */
+.testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Tekstin tyyli */
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    font-style: italic; /* Korostaa lainauksia */
+}
+
+/* Nimen tyyli */
+.testimonial-name {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Minusta osio */
+#about img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Vapaat ajat */
+#available-dates h1 {
+    margin-bottom: 40px; /* Lisää väliä otsikon ja JSON-sisällön väliin */
+
+}
+
+#available-dates {
+    margin: 0 auto;          
+    padding: 20px;           
+    max-width: 600px;      
+    display: flex;       
+    flex-direction: column;  
+    align-items: center;    
+}
+
+.available-dates {
+    background-color: transparent;  
+    padding: 0;                     
+    border: none;              
+    box-shadow: none;               
+    width: 100%;                     
+    display: flex;               
+    flex-direction: column;         
+    align-items: center;             
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.date-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    width: 100%;  
+}
+
+.date-item:hover {
+    border-color: #0a0000;
+    background-color: #f0f8ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.date {
+    font-size: 1.4rem;
+    color: #070707;
+    margin: 0;
+    font-weight: bold;
+}
+
+.times {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.time {
+    font-size: 1.2rem;
+    color: #050000;
+    margin: 5px 0;
+}
+
+.time:hover {
+    color: #000000;        
+    cursor: pointer;        
+    transition: color 0.3s; 
+    font-weight: bold;     
+}
+
+
+/* Lomake ja yhteydenotto */
+#yhteydenotto p {
+    max-width: 700px;       
+    margin: 0 auto;          
+    line-height: 1.6;        
+    text-align: center;      
+          
+}
+form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Painikkeet */
+.btn-primary {
+    background-color: #b2b29a;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #030303;
+    border-color: #ffffff;
+}
